@@ -2,12 +2,47 @@ $(document).ready(function () {
 	var config = {
 		uptimerobot: {
 			api_keys: [
-				'm779828614-2b8e76a1f638f179db6f01be',
-				'm779757287-11996787b4a4ddb79cae343b',
-				'm779757278-82acbbedc86d26ebbc129945',
-				'm779762016-33deea24d6a3e73e524d8ab0',
-				'm779870719-a710902a0c001a03244eac5e',
-				'm779870718-eada06ba00200d8ced148b37'
+				'm779159378-35b70646f5a0a7721f95851f',
+				//WAN (DD-WRT):
+				'm780553106-5660d549025a238235f8ef57',
+				//deluge:
+				'm778837228-8e194e552a2eec7b2af06e89',
+				//Mattermost
+				'm779252585-87d3caa9bb1e6655e9cc1510',
+				// (OMBI) Plex Request (HTTP):
+				'm779245556-29ff176349b541aef928049b',
+				// Plex Request (Port):
+				// 'm780134533-e1f9a613c8ee104e6212c027',
+				//deluge Xfer:
+				'm779126209-fc580d6c27c2347fba48f7d3',
+				//deluge WebUI:
+				'm779248420-bb3154d5353aab9eea77327f',
+				//FTP:
+				'm779126193-13d3b5b9a3840099036fdbb9',
+				//Headhpones:
+				//'m779126189-61a8c36d7fca73658485127b',
+				//Jackett:
+				'm779126194-a44ef2b1d6a8ff64ae900b68',
+				//LazyLibrarian
+				'm779368951-ecd6233582d5d84384aca4d6',
+				//Lidarr
+				'm779712881-a3cea81d1ee5d2d4c3225fae',
+				//PLEX
+				'm778837227-00fb68931af60e3a29fee644',
+				//PLEXpy
+				'm779312821-96ca79226081030cf9c008f2',
+				//radarr
+				'm779086278-b58555537e5530c149a15aeb',
+				//sabnzbd
+				'm779244212-91ede78d44188d4a87c42444',
+				//Sonarr
+				'm779091229-7a109974b955eb6701c8f270',
+				//IIS
+				'm778837213-d25b1c1a992e84dffd6fb69d',
+				//NZBHydra
+				'm779126192-8c6e6d05016503d31ddaf882',
+				//Goodsync
+				'm780134727-17e3f74321005b0d56550896'
 			],
 			logs: 1,
 			response_times: 1,
@@ -17,7 +52,7 @@ $(document).ready(function () {
 			response_times_warning: 1500,
 		},
 		github: {
-			org: '1activegeek',
+			org: 'seanvree',
 			repo: 'status'
 		},
 		theme: 'dark'
